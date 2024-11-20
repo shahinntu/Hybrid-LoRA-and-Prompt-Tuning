@@ -1,0 +1,47 @@
+{
+    "DATA": {
+        "DATASET_NAME": "wikisql"
+    },
+    "MODEL": {
+        "BASE_MODEL_NAME": "google/flan-t5-base",
+        "USE_LORA": true,
+        "USE_PROMPT_TUNING": true,
+        "LORA": {
+            "RANK": 4,
+            "ALPHA": 4,
+            "TARGET": [
+                "q",
+                "v"
+            ],
+            "DROPOUT": 0.05
+        },
+        "PROMPT_TUNING": {
+            "N_SOFT_TOKENS": 30,
+            "INITIALIZE_FROM_VOCAB": true
+        }
+    },
+    "ACCELERATOR": {
+        "MIXED_PRECISION": "bf16",
+        "GRADIENT_ACCUMULATION_STEPS": 1,
+        "MAX_GRAD_NORM": 1.0
+    },
+    "TRAINING": {
+        "EPOCHS": 20,
+        "BATCH_SIZE": {
+            "TRAIN": 16,
+            "TEST": 16
+        },
+        "ADAM_OPTIMIZER": {
+            "LEARNING_RATE": 0.001,
+            "BETA1": 0.9,
+            "BETA2": 0.999,
+            "WEIGHT_DECAY": 0.001,
+            "EPSILON": 1e-08
+        },
+        "LR_SCHEDULER": {
+            "TYPE": "cosine",
+            "WARMUP_STEPS": 500
+        },
+        "TRACK_METRICS_DURING_TRAINING": false
+    }
+}

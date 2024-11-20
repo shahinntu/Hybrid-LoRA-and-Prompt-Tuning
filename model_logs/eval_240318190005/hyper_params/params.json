@@ -1,0 +1,21 @@
+{
+    "DATA": {
+        "DATASET_NAME": "samsum"
+    },
+    "MODEL": {
+        "BASE_MODEL_NAME": "google/flan-t5-base",
+        "USE_LORA": false,
+        "USE_PROMPT_TUNING": false
+    },
+    "ACCELERATOR": {
+        "MIXED_PRECISION": "bf16"
+    },
+    "TRAINING": {
+        "BATCH_SIZE": {
+            "TEST": 16
+        }
+    },
+    "ADDED": {
+        "FOR_BASE_MODEL": true
+    }
+}

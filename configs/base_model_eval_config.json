@@ -1,0 +1,16 @@
+{
+  "DATA": {
+    "DATASET_NAME": "sst2"
+  },
+  "MODEL": {
+    "BASE_MODEL_NAME": "google/flan-t5-base",
+    "USE_LORA": false,
+    "USE_PROMPT_TUNING": false
+  },
+  "ACCELERATOR": {
+    "MIXED_PRECISION": "bf16"
+  },
+  "TRAINING": {
+    "BATCH_SIZE": { "TEST": 16 }
+  }
+}

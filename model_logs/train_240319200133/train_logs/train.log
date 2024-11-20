@@ -1,0 +1,64 @@
+2024-03-19 20:01:33,164:INFO: Epoch 1/20
+2024-03-19 20:17:31,420:INFO: - Train metrics: loss: 0.3008; lr:c: 9.95e-04
+2024-03-19 20:17:40,412:INFO: - Evaluation metrics: loss: 0.0875; acc: 0.9375
+2024-03-19 20:17:41,101:INFO: - Found new best objective
+2024-03-19 20:17:41,649:INFO: Epoch 2/20
+2024-03-19 20:33:39,179:INFO: - Train metrics: loss: 0.0948; lr:c: 9.78e-04
+2024-03-19 20:33:48,185:INFO: - Evaluation metrics: loss: 0.0926; acc: 0.9330
+2024-03-19 20:33:49,570:INFO: Epoch 3/20
+2024-03-19 20:49:47,236:INFO: - Train metrics: loss: 0.0859; lr:c: 9.49e-04
+2024-03-19 20:49:56,226:INFO: - Evaluation metrics: loss: 0.0981; acc: 0.9353
+2024-03-19 20:49:56,922:INFO: Epoch 4/20
+2024-03-19 21:05:54,561:INFO: - Train metrics: loss: 0.0806; lr:c: 9.09e-04
+2024-03-19 21:06:03,587:INFO: - Evaluation metrics: loss: 0.0968; acc: 0.9420
+2024-03-19 21:06:04,345:INFO: - Found new best objective
+2024-03-19 21:06:04,937:INFO: Epoch 5/20
+2024-03-19 21:22:02,496:INFO: - Train metrics: loss: 0.0755; lr:c: 8.58e-04
+2024-03-19 21:22:11,474:INFO: - Evaluation metrics: loss: 0.0971; acc: 0.9386
+2024-03-19 21:22:12,370:INFO: Epoch 6/20
+2024-03-19 21:38:09,752:INFO: - Train metrics: loss: 0.0712; lr:c: 7.99e-04
+2024-03-19 21:38:18,767:INFO: - Evaluation metrics: loss: 0.1027; acc: 0.9397
+2024-03-19 21:38:19,464:INFO: Epoch 7/20
+2024-03-19 21:54:17,167:INFO: - Train metrics: loss: 0.0664; lr:c: 7.32e-04
+2024-03-19 21:54:26,138:INFO: - Evaluation metrics: loss: 0.1029; acc: 0.9475
+2024-03-19 21:54:26,813:INFO: - Found new best objective
+2024-03-19 21:54:27,744:INFO: Epoch 8/20
+2024-03-19 22:10:25,280:INFO: - Train metrics: loss: 0.0655; lr:c: 6.60e-04
+2024-03-19 22:10:34,282:INFO: - Evaluation metrics: loss: 0.1101; acc: 0.9397
+2024-03-19 22:10:34,906:INFO: Epoch 9/20
+2024-03-19 22:26:32,582:INFO: - Train metrics: loss: 0.0629; lr:c: 5.83e-04
+2024-03-19 22:26:41,595:INFO: - Evaluation metrics: loss: 0.1009; acc: 0.9431
+2024-03-19 22:26:42,381:INFO: Epoch 10/20
+2024-03-19 22:42:40,216:INFO: - Train metrics: loss: 0.0603; lr:c: 5.05e-04
+2024-03-19 22:42:49,249:INFO: - Evaluation metrics: loss: 0.1051; acc: 0.9453
+2024-03-19 22:42:49,879:INFO: Epoch 11/20
+2024-03-19 22:58:47,309:INFO: - Train metrics: loss: 0.0581; lr:c: 4.26e-04
+2024-03-19 22:58:56,274:INFO: - Evaluation metrics: loss: 0.1093; acc: 0.9408
+2024-03-19 22:58:57,014:INFO: Epoch 12/20
+2024-03-19 23:14:54,572:INFO: - Train metrics: loss: 0.0568; lr:c: 3.49e-04
+2024-03-19 23:15:03,561:INFO: - Evaluation metrics: loss: 0.1072; acc: 0.9453
+2024-03-19 23:15:04,238:INFO: Epoch 13/20
+2024-03-19 23:31:01,496:INFO: - Train metrics: loss: 0.0534; lr:c: 2.76e-04
+2024-03-19 23:31:10,483:INFO: - Evaluation metrics: loss: 0.1059; acc: 0.9498
+2024-03-19 23:31:11,152:INFO: - Found new best objective
+2024-03-19 23:31:11,715:INFO: Epoch 14/20
+2024-03-19 23:47:09,239:INFO: - Train metrics: loss: 0.0527; lr:c: 2.08e-04
+2024-03-19 23:47:18,252:INFO: - Evaluation metrics: loss: 0.1109; acc: 0.9487
+2024-03-19 23:47:18,942:INFO: Epoch 15/20
+2024-03-20 00:03:16,396:INFO: - Train metrics: loss: 0.0509; lr:c: 1.48e-04
+2024-03-20 00:03:25,410:INFO: - Evaluation metrics: loss: 0.1116; acc: 0.9475
+2024-03-20 00:03:26,077:INFO: Epoch 16/20
+2024-03-20 00:19:23,726:INFO: - Train metrics: loss: 0.0493; lr:c: 9.66e-05
+2024-03-20 00:19:32,707:INFO: - Evaluation metrics: loss: 0.1145; acc: 0.9487
+2024-03-20 00:19:33,381:INFO: Epoch 17/20
+2024-03-20 00:35:31,084:INFO: - Train metrics: loss: 0.0495; lr:c: 5.51e-05
+2024-03-20 00:35:40,092:INFO: - Evaluation metrics: loss: 0.1152; acc: 0.9487
+2024-03-20 00:35:40,756:INFO: Epoch 18/20
+2024-03-20 00:51:38,173:INFO: - Train metrics: loss: 0.0495; lr:c: 2.48e-05
+2024-03-20 00:51:47,179:INFO: - Evaluation metrics: loss: 0.1169; acc: 0.9453
+2024-03-20 00:51:48,264:INFO: Epoch 19/20
+2024-03-20 01:07:45,601:INFO: - Train metrics: loss: 0.0493; lr:c: 6.23e-06
+2024-03-20 01:07:54,583:INFO: - Evaluation metrics: loss: 0.1161; acc: 0.9475
+2024-03-20 01:07:55,239:INFO: Epoch 20/20
+2024-03-20 01:23:52,579:INFO: - Train metrics: loss: 0.0486; lr:c: 0.00e+00
+2024-03-20 01:24:01,575:INFO: - Evaluation metrics: loss: 0.1160; acc: 0.9475
